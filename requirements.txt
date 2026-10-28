@@ -1,0 +1,8 @@
+# Historical scientific pins, plus the currently installed transitive pins.
+# Python 3.13.3 is required by reproduce.py.
+numpy==2.3.1
+scipy==1.16.2
+scikit-learn==1.7.2
+pyarrow==22.0.0
+joblib==1.5.2
+threadpoolctl==3.6.0

@@ -1,0 +1,12 @@
+{
+  "schema": "aimo_r01a_external_input_v1",
+  "publisher": "aimo-interp",
+  "dataset": "train-main-v2",
+  "revision": "fa8af758c6519fc97a9d0bd9017feb6f12232b52",
+  "official_url": "https://huggingface.co/datasets/aimo-interp/train-main-v2/resolve/fa8af758c6519fc97a9d0bd9017feb6f12232b52/data/train-00000-of-00001.parquet",
+  "bytes": 11372,
+  "sha256": "e18eb44207e7987781ec2ff214793196038442bdc1466fdf5498f3e87ec58285",
+  "redistributed": false,
+  "access_step": "scripts/acquire_official_input.py or an independently obtained file",
+  "terms": "Recipient checks applicable publisher terms; this manifest grants no dataset rights."
+}

@@ -1,0 +1,2569 @@
+{
+  "family": {
+    "all_group_count": 23,
+    "labelled_group_count": 22,
+    "unscored_group_count": 1,
+    "equal_group_brier": {
+      "configuration_logistic": 0.29344642943879895,
+      "configuration_structure": 0.3763500650618786,
+      "configuration_prior": 0.28840454145081973
+    },
+    "matched_improvement": -0.08290363562307973,
+    "row_weighted": {
+      "configuration_logistic": {
+        "n": 80,
+        "positive": 59,
+        "negative": 21,
+        "represented_classes": 2,
+        "accuracy": 0.7375,
+        "balanced_accuracy": 0.5,
+        "brier": 0.22588422526853255
+      },
+      "configuration_structure": {
+        "n": 80,
+        "positive": 59,
+        "negative": 21,
+        "represented_classes": 2,
+        "accuracy": 0.625,
+        "balanced_accuracy": 0.5157384987893463,
+        "brier": 0.2930769540799396
+      },
+      "configuration_prior": {
+        "n": 80,
+        "positive": 59,
+        "negative": 21,
+        "represented_classes": 2,
+        "accuracy": 0.7375,
+        "balanced_accuracy": 0.5,
+        "brier": 0.22834160666923026
+      }
+    },
+    "groups": [
+      {
+        "group": "F01",
+        "all_n": 7,
+        "labelled_n": 7,
+        "null_n": 0,
+        "input_indices": [
+          6,
+          17,
+          28,
+          37,
+          57,
+          65,
+          82
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 7,
+            "positive": 7,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.09214840404917427
+          },
+          "configuration_structure": {
+            "n": 7,
+            "positive": 7,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.0022528052553147594
+          },
+          "configuration_prior": {
+            "n": 7,
+            "positive": 7,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.11160588646493366
+          }
+        },
+        "matched_improvement": 0.0898955987938595,
+        "prior_minus_structure": 0.1093530812096189,
+        "logistic_minus_prior": -0.019457482415759397
+      },
+      {
+        "group": "F02",
+        "all_n": 2,
+        "labelled_n": 2,
+        "null_n": 0,
+        "input_indices": [
+          20,
+          29
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 2,
+            "positive": 2,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.08975904718014803
+          },
+          "configuration_structure": {
+            "n": 2,
+            "positive": 2,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.08623512753087803
+          },
+          "configuration_prior": {
+            "n": 2,
+            "positive": 2,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.11111570247933886
+          }
+        },
+        "matched_improvement": 0.0035239196492699992,
+        "prior_minus_structure": 0.024880574948460826,
+        "logistic_minus_prior": -0.021356655299190827
+      },
+      {
+        "group": "F03",
+        "all_n": 5,
+        "labelled_n": 3,
+        "null_n": 2,
+        "input_indices": [
+          8,
+          41,
+          56,
+          69,
+          92
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 3,
+            "positive": 3,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.08394758223314587
+          },
+          "configuration_structure": {
+            "n": 3,
+            "positive": 3,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.9442887380290639
+          },
+          "configuration_prior": {
+            "n": 3,
+            "positive": 3,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.10546875
+          }
+        },
+        "matched_improvement": -0.860341155795918,
+        "prior_minus_structure": -0.8388199880290639,
+        "logistic_minus_prior": -0.02152116776685413
+      },
+      {
+        "group": "F04",
+        "all_n": 2,
+        "labelled_n": 2,
+        "null_n": 0,
+        "input_indices": [
+          14,
+          19
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 2,
+            "positive": 2,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.07697022070932033
+          },
+          "configuration_structure": {
+            "n": 2,
+            "positive": 2,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.041252003669284665
+          },
+          "configuration_prior": {
+            "n": 2,
+            "positive": 2,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.0923372781065089
+          }
+        },
+        "matched_improvement": 0.035718217040035666,
+        "prior_minus_structure": 0.05108527443722423,
+        "logistic_minus_prior": -0.015367057397188563
+      },
+      {
+        "group": "F05",
+        "all_n": 1,
+        "labelled_n": 1,
+        "null_n": 0,
+        "input_indices": [
+          2
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 1,
+            "positive": 1,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.11928216555699656
+          },
+          "configuration_structure": {
+            "n": 1,
+            "positive": 1,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 2.6296549861859546e-06
+          },
+          "configuration_prior": {
+            "n": 1,
+            "positive": 1,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.14792899408284022
+          }
+        },
+        "matched_improvement": 0.11927953590201038,
+        "prior_minus_structure": 0.14792636442785403,
+        "logistic_minus_prior": -0.02864682852584366
+      },
+      {
+        "group": "F06",
+        "all_n": 18,
+        "labelled_n": 15,
+        "null_n": 3,
+        "input_indices": [
+          3,
+          4,
+          7,
+          22,
+          23,
+          27,
+          31,
+          38,
+          40,
+          45,
+          55,
+          60,
+          64,
+          70,
+          76,
+          85,
+          86,
+          89
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 15,
+            "positive": 15,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.1144592788902363
+          },
+          "configuration_structure": {
+            "n": 15,
+            "positive": 15,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 0.6666666666666666,
+            "balanced_accuracy": 0.6666666666666666,
+            "brier": 0.18741231475586873
+          },
+          "configuration_prior": {
+            "n": 15,
+            "positive": 15,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.13217728381527086
+          }
+        },
+        "matched_improvement": -0.07295303586563243,
+        "prior_minus_structure": -0.05523503094059787,
+        "logistic_minus_prior": -0.01771800492503456
+      },
+      {
+        "group": "F07",
+        "all_n": 10,
+        "labelled_n": 9,
+        "null_n": 1,
+        "input_indices": [
+          10,
+          11,
+          42,
+          47,
+          62,
+          66,
+          71,
+          73,
+          87,
+          90
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 9,
+            "positive": 5,
+            "negative": 4,
+            "represented_classes": 2,
+            "accuracy": 0.5555555555555556,
+            "balanced_accuracy": 0.5,
+            "brier": 0.3123302784202667
+          },
+          "configuration_structure": {
+            "n": 9,
+            "positive": 5,
+            "negative": 4,
+            "represented_classes": 2,
+            "accuracy": 0.4444444444444444,
+            "balanced_accuracy": 0.425,
+            "brier": 0.34196481764121756
+          },
+          "configuration_prior": {
+            "n": 9,
+            "positive": 5,
+            "negative": 4,
+            "represented_classes": 2,
+            "accuracy": 0.5555555555555556,
+            "balanced_accuracy": 0.5,
+            "brier": 0.30138888888888893
+          }
+        },
+        "matched_improvement": -0.02963453922095083,
+        "prior_minus_structure": -0.04057592875232863,
+        "logistic_minus_prior": 0.010941389531377799
+      },
+      {
+        "group": "F08",
+        "all_n": 2,
+        "labelled_n": 1,
+        "null_n": 1,
+        "input_indices": [
+          49,
+          74
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 1,
+            "positive": 1,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.03327579025720518
+          },
+          "configuration_structure": {
+            "n": 1,
+            "positive": 1,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.553458970522983
+          },
+          "configuration_prior": {
+            "n": 1,
+            "positive": 1,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.03515625
+          }
+        },
+        "matched_improvement": -0.5201831802657778,
+        "prior_minus_structure": -0.518302720522983,
+        "logistic_minus_prior": -0.0018804597427948197
+      },
+      {
+        "group": "F09",
+        "all_n": 1,
+        "labelled_n": 1,
+        "null_n": 0,
+        "input_indices": [
+          53
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 1,
+            "positive": 0,
+            "negative": 1,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.7568686225716061
+          },
+          "configuration_structure": {
+            "n": 1,
+            "positive": 0,
+            "negative": 1,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.8989806223067813
+          },
+          "configuration_prior": {
+            "n": 1,
+            "positive": 0,
+            "negative": 1,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.765625
+          }
+        },
+        "matched_improvement": -0.1421119997351752,
+        "prior_minus_structure": -0.13335562230678133,
+        "logistic_minus_prior": -0.008756377428393858
+      },
+      {
+        "group": "F10",
+        "all_n": 1,
+        "labelled_n": 1,
+        "null_n": 0,
+        "input_indices": [
+          80
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 1,
+            "positive": 0,
+            "negative": 1,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.5190462196243746
+          },
+          "configuration_structure": {
+            "n": 1,
+            "positive": 0,
+            "negative": 1,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.6611076227203474
+          },
+          "configuration_prior": {
+            "n": 1,
+            "positive": 0,
+            "negative": 1,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.47265625
+          }
+        },
+        "matched_improvement": -0.14206140309597282,
+        "prior_minus_structure": -0.1884513727203474,
+        "logistic_minus_prior": 0.04638996962437458
+      },
+      {
+        "group": "F11",
+        "all_n": 2,
+        "labelled_n": 2,
+        "null_n": 0,
+        "input_indices": [
+          48,
+          77
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 2,
+            "positive": 1,
+            "negative": 1,
+            "represented_classes": 2,
+            "accuracy": 0.5,
+            "balanced_accuracy": 0.5,
+            "brier": 0.27478503635465434
+          },
+          "configuration_structure": {
+            "n": 2,
+            "positive": 1,
+            "negative": 1,
+            "represented_classes": 2,
+            "accuracy": 0.5,
+            "balanced_accuracy": 0.5,
+            "brier": 0.42225503867988423
+          },
+          "configuration_prior": {
+            "n": 2,
+            "positive": 1,
+            "negative": 1,
+            "represented_classes": 2,
+            "accuracy": 0.5,
+            "balanced_accuracy": 0.5,
+            "brier": 0.25390625
+          }
+        },
+        "matched_improvement": -0.1474700023252299,
+        "prior_minus_structure": -0.16834878867988423,
+        "logistic_minus_prior": 0.020878786354654344
+      },
+      {
+        "group": "F12",
+        "all_n": 1,
+        "labelled_n": 0,
+        "null_n": 1,
+        "input_indices": [
+          75
+        ],
+        "scored": false
+      },
+      {
+        "group": "F13",
+        "all_n": 2,
+        "labelled_n": 1,
+        "null_n": 1,
+        "input_indices": [
+          52,
+          78
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 1,
+            "positive": 0,
+            "negative": 1,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.5190462196243746
+          },
+          "configuration_structure": {
+            "n": 1,
+            "positive": 0,
+            "negative": 1,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.1913674083101283
+          },
+          "configuration_prior": {
+            "n": 1,
+            "positive": 0,
+            "negative": 1,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.47265625
+          }
+        },
+        "matched_improvement": 0.32767881131424625,
+        "prior_minus_structure": 0.28128884168987167,
+        "logistic_minus_prior": 0.04638996962437458
+      },
+      {
+        "group": "F14",
+        "all_n": 2,
+        "labelled_n": 2,
+        "null_n": 0,
+        "input_indices": [
+          54,
+          81
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 2,
+            "positive": 0,
+            "negative": 2,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.6449760730383775
+          },
+          "configuration_structure": {
+            "n": 2,
+            "positive": 0,
+            "negative": 2,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.8580199673839983
+          },
+          "configuration_prior": {
+            "n": 2,
+            "positive": 0,
+            "negative": 2,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.619140625
+          }
+        },
+        "matched_improvement": -0.21304389434562088,
+        "prior_minus_structure": -0.23887934238399833,
+        "logistic_minus_prior": 0.02583544803837745
+      },
+      {
+        "group": "F15",
+        "all_n": 5,
+        "labelled_n": 5,
+        "null_n": 0,
+        "input_indices": [
+          1,
+          33,
+          44,
+          63,
+          91
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 5,
+            "positive": 5,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.09196501613345753
+          },
+          "configuration_structure": {
+            "n": 5,
+            "positive": 5,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.04448567669619878
+          },
+          "configuration_prior": {
+            "n": 5,
+            "positive": 5,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.11012324105090714
+          }
+        },
+        "matched_improvement": 0.04747933943725875,
+        "prior_minus_structure": 0.06563756435470836,
+        "logistic_minus_prior": -0.018158224917449603
+      },
+      {
+        "group": "F16",
+        "all_n": 4,
+        "labelled_n": 4,
+        "null_n": 0,
+        "input_indices": [
+          12,
+          16,
+          26,
+          36
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 4,
+            "positive": 0,
+            "negative": 4,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.6183761878722422
+          },
+          "configuration_structure": {
+            "n": 4,
+            "positive": 0,
+            "negative": 4,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.9581204866099888
+          },
+          "configuration_prior": {
+            "n": 4,
+            "positive": 0,
+            "negative": 4,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.5599828842486185
+          }
+        },
+        "matched_improvement": -0.3397442987377466,
+        "prior_minus_structure": -0.3981376023613703,
+        "logistic_minus_prior": 0.058393303623623716
+      },
+      {
+        "group": "F17",
+        "all_n": 4,
+        "labelled_n": 3,
+        "null_n": 1,
+        "input_indices": [
+          13,
+          15,
+          51,
+          79
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 3,
+            "positive": 1,
+            "negative": 2,
+            "represented_classes": 2,
+            "accuracy": 0.3333333333333333,
+            "balanced_accuracy": 0.5,
+            "brier": 0.37293831165082364
+          },
+          "configuration_structure": {
+            "n": 3,
+            "positive": 1,
+            "negative": 2,
+            "represented_classes": 2,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.7999264585698026
+          },
+          "configuration_prior": {
+            "n": 3,
+            "positive": 1,
+            "negative": 2,
+            "represented_classes": 2,
+            "accuracy": 0.3333333333333333,
+            "balanced_accuracy": 0.5,
+            "brier": 0.34887358234714005
+          }
+        },
+        "matched_improvement": -0.42698814691897896,
+        "prior_minus_structure": -0.45105287622266255,
+        "logistic_minus_prior": 0.024064729303683585
+      },
+      {
+        "group": "F18",
+        "all_n": 7,
+        "labelled_n": 7,
+        "null_n": 0,
+        "input_indices": [
+          5,
+          18,
+          30,
+          39,
+          58,
+          67,
+          84
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 7,
+            "positive": 7,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.09214840404917427
+          },
+          "configuration_structure": {
+            "n": 7,
+            "positive": 7,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.021681452879473845
+          },
+          "configuration_prior": {
+            "n": 7,
+            "positive": 7,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.11160588646493366
+          }
+        },
+        "matched_improvement": 0.07046695116970042,
+        "prior_minus_structure": 0.08992443358545982,
+        "logistic_minus_prior": -0.019457482415759397
+      },
+      {
+        "group": "F19",
+        "all_n": 4,
+        "labelled_n": 2,
+        "null_n": 2,
+        "input_indices": [
+          24,
+          34,
+          50,
+          83
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 2,
+            "positive": 0,
+            "negative": 2,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.6026679066427215
+          },
+          "configuration_structure": {
+            "n": 2,
+            "positive": 0,
+            "negative": 2,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 1.9970770008606752e-05
+          },
+          "configuration_prior": {
+            "n": 2,
+            "positive": 0,
+            "negative": 2,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.5603207980830358
+          }
+        },
+        "matched_improvement": 0.6026479358727129,
+        "prior_minus_structure": 0.5603008273130272,
+        "logistic_minus_prior": 0.04234710855968571
+      },
+      {
+        "group": "F20",
+        "all_n": 6,
+        "labelled_n": 5,
+        "null_n": 1,
+        "input_indices": [
+          9,
+          25,
+          46,
+          61,
+          72,
+          88
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 5,
+            "positive": 3,
+            "negative": 2,
+            "represented_classes": 2,
+            "accuracy": 0.6,
+            "balanced_accuracy": 0.5,
+            "brier": 0.2995965074265421
+          },
+          "configuration_structure": {
+            "n": 5,
+            "positive": 3,
+            "negative": 2,
+            "represented_classes": 2,
+            "accuracy": 0.4,
+            "balanced_accuracy": 0.5,
+            "brier": 0.42825128969044746
+          },
+          "configuration_prior": {
+            "n": 5,
+            "positive": 3,
+            "negative": 2,
+            "represented_classes": 2,
+            "accuracy": 0.6,
+            "balanced_accuracy": 0.5,
+            "brier": 0.2945911612426036
+          }
+        },
+        "matched_improvement": -0.12865478226390537,
+        "prior_minus_structure": -0.13366012844784386,
+        "logistic_minus_prior": 0.005005346183938497
+      },
+      {
+        "group": "F21",
+        "all_n": 1,
+        "labelled_n": 1,
+        "null_n": 0,
+        "input_indices": [
+          35
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 1,
+            "positive": 0,
+            "negative": 1,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.5725725214764716
+          },
+          "configuration_structure": {
+            "n": 1,
+            "positive": 0,
+            "negative": 1,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.8350978261746592
+          },
+          "configuration_prior": {
+            "n": 1,
+            "positive": 0,
+            "negative": 1,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.5289256198347108
+          }
+        },
+        "matched_improvement": -0.2625253046981876,
+        "prior_minus_structure": -0.30617220633994846,
+        "logistic_minus_prior": 0.04364690164176088
+      },
+      {
+        "group": "F22",
+        "all_n": 1,
+        "labelled_n": 1,
+        "null_n": 0,
+        "input_indices": [
+          21
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 1,
+            "positive": 1,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.07272193792636189
+          },
+          "configuration_structure": {
+            "n": 1,
+            "positive": 1,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.003061060533798882
+          },
+          "configuration_prior": {
+            "n": 1,
+            "positive": 1,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.09000000000000002
+          }
+        },
+        "matched_improvement": 0.069660877392563,
+        "prior_minus_structure": 0.08693893946620114,
+        "logistic_minus_prior": -0.017278062073638134
+      },
+      {
+        "group": "F23",
+        "all_n": 6,
+        "labelled_n": 5,
+        "null_n": 1,
+        "input_indices": [
+          0,
+          32,
+          43,
+          59,
+          68,
+          93
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 5,
+            "positive": 5,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.09593971596590171
+          },
+          "configuration_structure": {
+            "n": 5,
+            "positive": 5,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.0004591429762161352
+          },
+          "configuration_prior": {
+            "n": 5,
+            "positive": 5,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.11931332980830359
+          }
+        },
+        "matched_improvement": 0.09548057298968558,
+        "prior_minus_structure": 0.11885418683208746,
+        "logistic_minus_prior": -0.023373613842401872
+      }
+    ],
+    "prior_minus_structure": -0.0879455236110589,
+    "logistic_minus_prior": 0.005041887987979197
+  },
+  "exact_text": {
+    "all_group_count": 36,
+    "labelled_group_count": 33,
+    "unscored_group_count": 3,
+    "equal_group_brier": {
+      "configuration_logistic": 0.28270691016558336,
+      "configuration_structure": 0.3859506782524189,
+      "configuration_prior": 0.2770732398897678
+    },
+    "matched_improvement": -0.10324376808683561,
+    "row_weighted": {
+      "configuration_logistic": {
+        "n": 80,
+        "positive": 59,
+        "negative": 21,
+        "represented_classes": 2,
+        "accuracy": 0.7375,
+        "balanced_accuracy": 0.5,
+        "brier": 0.2196451657349102
+      },
+      "configuration_structure": {
+        "n": 80,
+        "positive": 59,
+        "negative": 21,
+        "represented_classes": 2,
+        "accuracy": 0.675,
+        "balanced_accuracy": 0.549636803874092,
+        "brier": 0.2901950656741775
+      },
+      "configuration_prior": {
+        "n": 80,
+        "positive": 59,
+        "negative": 21,
+        "represented_classes": 2,
+        "accuracy": 0.7375,
+        "balanced_accuracy": 0.5,
+        "brier": 0.22170181056378063
+      }
+    },
+    "groups": [
+      {
+        "group": "064a299b34e6e00859e72b8c739c6d6cf929e9e7c30f2d3335227f4684031f5c",
+        "all_n": 2,
+        "labelled_n": 2,
+        "null_n": 0,
+        "input_indices": [
+          54,
+          81
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 2,
+            "positive": 0,
+            "negative": 2,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.6449760730383775
+          },
+          "configuration_structure": {
+            "n": 2,
+            "positive": 0,
+            "negative": 2,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.8580199673839983
+          },
+          "configuration_prior": {
+            "n": 2,
+            "positive": 0,
+            "negative": 2,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.619140625
+          }
+        },
+        "matched_improvement": -0.21304389434562088,
+        "prior_minus_structure": -0.23887934238399833,
+        "logistic_minus_prior": 0.02583544803837745
+      },
+      {
+        "group": "11ff3e02ab225f8a4e517079706019ae57a67abf91958eed3f5fbedeb568000f",
+        "all_n": 1,
+        "labelled_n": 1,
+        "null_n": 0,
+        "input_indices": [
+          25
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 1,
+            "positive": 0,
+            "negative": 1,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.6600091378482891
+          },
+          "configuration_structure": {
+            "n": 1,
+            "positive": 0,
+            "negative": 1,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.1982579715316986
+          },
+          "configuration_prior": {
+            "n": 1,
+            "positive": 0,
+            "negative": 1,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.6400000000000001
+          }
+        },
+        "matched_improvement": 0.46175116631659047,
+        "prior_minus_structure": 0.4417420284683015,
+        "logistic_minus_prior": 0.02000913784828895
+      },
+      {
+        "group": "182940563ba1ef72c746e2c82a9a42b3ac72321bf10bed5002f4ed3759f65dbc",
+        "all_n": 4,
+        "labelled_n": 3,
+        "null_n": 1,
+        "input_indices": [
+          10,
+          62,
+          73,
+          87
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 3,
+            "positive": 0,
+            "negative": 3,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.5959570606684624
+          },
+          "configuration_structure": {
+            "n": 3,
+            "positive": 0,
+            "negative": 3,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.9855105563592224
+          },
+          "configuration_prior": {
+            "n": 3,
+            "positive": 0,
+            "negative": 3,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.5445019723865877
+          }
+        },
+        "matched_improvement": -0.3895534956907599,
+        "prior_minus_structure": -0.44100858397263465,
+        "logistic_minus_prior": 0.05145508828187473
+      },
+      {
+        "group": "1c2bec482bb1617a090f5dfbbbe4e22e6ec3b46086a8b4a33d78e1a7715e4ab9",
+        "all_n": 2,
+        "labelled_n": 2,
+        "null_n": 0,
+        "input_indices": [
+          14,
+          19
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 2,
+            "positive": 2,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.07697022070932033
+          },
+          "configuration_structure": {
+            "n": 2,
+            "positive": 2,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.041252003669284665
+          },
+          "configuration_prior": {
+            "n": 2,
+            "positive": 2,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.0923372781065089
+          }
+        },
+        "matched_improvement": 0.035718217040035666,
+        "prior_minus_structure": 0.05108527443722423,
+        "logistic_minus_prior": -0.015367057397188563
+      },
+      {
+        "group": "26a263ad81138dbfb41647a1e55af77c0b8ab02d4b051fc23722a7f0c403535d",
+        "all_n": 7,
+        "labelled_n": 7,
+        "null_n": 0,
+        "input_indices": [
+          6,
+          17,
+          28,
+          37,
+          57,
+          65,
+          82
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 7,
+            "positive": 7,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.09214840404917427
+          },
+          "configuration_structure": {
+            "n": 7,
+            "positive": 7,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.0022528052553147594
+          },
+          "configuration_prior": {
+            "n": 7,
+            "positive": 7,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.11160588646493366
+          }
+        },
+        "matched_improvement": 0.0898955987938595,
+        "prior_minus_structure": 0.1093530812096189,
+        "logistic_minus_prior": -0.019457482415759397
+      },
+      {
+        "group": "2ca839cfbfc60e29b4b761e290c8a294243b03efe16b78f0fdd26484c5dcfecb",
+        "all_n": 6,
+        "labelled_n": 5,
+        "null_n": 1,
+        "input_indices": [
+          0,
+          32,
+          43,
+          59,
+          68,
+          93
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 5,
+            "positive": 5,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.09593971596590171
+          },
+          "configuration_structure": {
+            "n": 5,
+            "positive": 5,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.0004591429762161352
+          },
+          "configuration_prior": {
+            "n": 5,
+            "positive": 5,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.11931332980830359
+          }
+        },
+        "matched_improvement": 0.09548057298968558,
+        "prior_minus_structure": 0.11885418683208746,
+        "logistic_minus_prior": -0.023373613842401872
+      },
+      {
+        "group": "37172384f0dc9b88dbceac3662922c5613eb492b3bb0fbc53fc7a3d0a383eca7",
+        "all_n": 1,
+        "labelled_n": 1,
+        "null_n": 0,
+        "input_indices": [
+          27
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 1,
+            "positive": 1,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.10410169622898816
+          },
+          "configuration_structure": {
+            "n": 1,
+            "positive": 1,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.04203347477133744
+          },
+          "configuration_prior": {
+            "n": 1,
+            "positive": 1,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.1322314049586777
+          }
+        },
+        "matched_improvement": 0.062068221457650716,
+        "prior_minus_structure": 0.09019793018734025,
+        "logistic_minus_prior": -0.028129708729689534
+      },
+      {
+        "group": "474474902d2cd01e7b6e428a3325b6dbab0dacb97868226c44b6481e80f70bb8",
+        "all_n": 3,
+        "labelled_n": 3,
+        "null_n": 0,
+        "input_indices": [
+          42,
+          66,
+          90
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 3,
+            "positive": 3,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.07612830465421656
+          },
+          "configuration_structure": {
+            "n": 3,
+            "positive": 3,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.00017364324419163343
+          },
+          "configuration_prior": {
+            "n": 3,
+            "positive": 3,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.09015193540433926
+          }
+        },
+        "matched_improvement": 0.07595466141002492,
+        "prior_minus_structure": 0.08997829216014762,
+        "logistic_minus_prior": -0.014023630750122695
+      },
+      {
+        "group": "4d866680f9238c0ae6b14d41fc7250d041d6c5073ed167b043ff1d059a7f7252",
+        "all_n": 1,
+        "labelled_n": 1,
+        "null_n": 0,
+        "input_indices": [
+          21
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 1,
+            "positive": 1,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.07272193792636189
+          },
+          "configuration_structure": {
+            "n": 1,
+            "positive": 1,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.003061060533798882
+          },
+          "configuration_prior": {
+            "n": 1,
+            "positive": 1,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.09000000000000002
+          }
+        },
+        "matched_improvement": 0.069660877392563,
+        "prior_minus_structure": 0.08693893946620114,
+        "logistic_minus_prior": -0.017278062073638134
+      },
+      {
+        "group": "514ab5381d43028c56de1d2462da06354913886d6e2e6a1b76b7d962f52c9b26",
+        "all_n": 1,
+        "labelled_n": 1,
+        "null_n": 0,
+        "input_indices": [
+          80
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 1,
+            "positive": 0,
+            "negative": 1,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.5190462196243746
+          },
+          "configuration_structure": {
+            "n": 1,
+            "positive": 0,
+            "negative": 1,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.6611076227203474
+          },
+          "configuration_prior": {
+            "n": 1,
+            "positive": 0,
+            "negative": 1,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.47265625
+          }
+        },
+        "matched_improvement": -0.14206140309597282,
+        "prior_minus_structure": -0.1884513727203474,
+        "logistic_minus_prior": 0.04638996962437458
+      },
+      {
+        "group": "51697b0daa5c5889c487c06dadb3f5279afe64889481e0a7f1380610894980fc",
+        "all_n": 2,
+        "labelled_n": 1,
+        "null_n": 1,
+        "input_indices": [
+          49,
+          74
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 1,
+            "positive": 1,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.03327579025720518
+          },
+          "configuration_structure": {
+            "n": 1,
+            "positive": 1,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.553458970522983
+          },
+          "configuration_prior": {
+            "n": 1,
+            "positive": 1,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.03515625
+          }
+        },
+        "matched_improvement": -0.5201831802657778,
+        "prior_minus_structure": -0.518302720522983,
+        "logistic_minus_prior": -0.0018804597427948197
+      },
+      {
+        "group": "60cdd62c418b49a7026f2761ba8c2abccc8e41b2d8004badcfc56413406223e5",
+        "all_n": 5,
+        "labelled_n": 5,
+        "null_n": 0,
+        "input_indices": [
+          1,
+          33,
+          44,
+          63,
+          91
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 5,
+            "positive": 5,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.09196501613345753
+          },
+          "configuration_structure": {
+            "n": 5,
+            "positive": 5,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.04448567669619878
+          },
+          "configuration_prior": {
+            "n": 5,
+            "positive": 5,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.11012324105090714
+          }
+        },
+        "matched_improvement": 0.04747933943725875,
+        "prior_minus_structure": 0.06563756435470836,
+        "logistic_minus_prior": -0.018158224917449603
+      },
+      {
+        "group": "653cc7a20fd728ab10be58829816300832509e62dda29b92fbec6a43d301445f",
+        "all_n": 1,
+        "labelled_n": 1,
+        "null_n": 0,
+        "input_indices": [
+          71
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 1,
+            "positive": 1,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.11432011384108799
+          },
+          "configuration_structure": {
+            "n": 1,
+            "positive": 1,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.8429053036876939
+          },
+          "configuration_prior": {
+            "n": 1,
+            "positive": 1,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.140625
+          }
+        },
+        "matched_improvement": -0.7285851898466059,
+        "prior_minus_structure": -0.7022803036876939,
+        "logistic_minus_prior": -0.026304886158912008
+      },
+      {
+        "group": "7484bdf384e31681865f49bf2595044f4d5e5f0ba0c35883166d1042b8f5f463",
+        "all_n": 1,
+        "labelled_n": 0,
+        "null_n": 1,
+        "input_indices": [
+          24
+        ],
+        "scored": false
+      },
+      {
+        "group": "7836ed197da2a3a9b4378295fad860b566032e0d36f080e8516de744d82e5407",
+        "all_n": 1,
+        "labelled_n": 1,
+        "null_n": 0,
+        "input_indices": [
+          47
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 1,
+            "positive": 1,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.03327579025720518
+          },
+          "configuration_structure": {
+            "n": 1,
+            "positive": 1,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.6143576243652017
+          },
+          "configuration_prior": {
+            "n": 1,
+            "positive": 1,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.03515625
+          }
+        },
+        "matched_improvement": -0.5810818341079965,
+        "prior_minus_structure": -0.5792013743652017,
+        "logistic_minus_prior": -0.0018804597427948197
+      },
+      {
+        "group": "7968ea2f49d404309e79bbbd485d0c4c5f2dc1413bec889119a4cc6251f7d04b",
+        "all_n": 2,
+        "labelled_n": 2,
+        "null_n": 0,
+        "input_indices": [
+          20,
+          29
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 2,
+            "positive": 2,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.08975904718014803
+          },
+          "configuration_structure": {
+            "n": 2,
+            "positive": 2,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.08623512753087803
+          },
+          "configuration_prior": {
+            "n": 2,
+            "positive": 2,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.11111570247933886
+          }
+        },
+        "matched_improvement": 0.0035239196492699992,
+        "prior_minus_structure": 0.024880574948460826,
+        "logistic_minus_prior": -0.021356655299190827
+      },
+      {
+        "group": "799983f16d47f89fddbd852d27e7533d4130c97c6568b2ce31948e17ee541206",
+        "all_n": 2,
+        "labelled_n": 1,
+        "null_n": 1,
+        "input_indices": [
+          51,
+          79
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 1,
+            "positive": 0,
+            "negative": 1,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.5190462196243746
+          },
+          "configuration_structure": {
+            "n": 1,
+            "positive": 0,
+            "negative": 1,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.7604976476462192
+          },
+          "configuration_prior": {
+            "n": 1,
+            "positive": 0,
+            "negative": 1,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.47265625
+          }
+        },
+        "matched_improvement": -0.2414514280218446,
+        "prior_minus_structure": -0.2878413976462192,
+        "logistic_minus_prior": 0.04638996962437458
+      },
+      {
+        "group": "7ee9d443789963a70fd30b4c9e23f3f773459bdef7479e92c5c73fe358ffb21a",
+        "all_n": 4,
+        "labelled_n": 4,
+        "null_n": 0,
+        "input_indices": [
+          12,
+          16,
+          26,
+          36
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 4,
+            "positive": 0,
+            "negative": 4,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.6183761878722422
+          },
+          "configuration_structure": {
+            "n": 4,
+            "positive": 0,
+            "negative": 4,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.9581204866099888
+          },
+          "configuration_prior": {
+            "n": 4,
+            "positive": 0,
+            "negative": 4,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.5599828842486185
+          }
+        },
+        "matched_improvement": -0.3397442987377466,
+        "prior_minus_structure": -0.3981376023613703,
+        "logistic_minus_prior": 0.058393303623623716
+      },
+      {
+        "group": "8cfb5ed3481065bdd2ce92de4961eba9ed7225945305fcec7132a0be4a2a4a31",
+        "all_n": 1,
+        "labelled_n": 1,
+        "null_n": 0,
+        "input_indices": [
+          2
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 1,
+            "positive": 1,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.11928216555699656
+          },
+          "configuration_structure": {
+            "n": 1,
+            "positive": 1,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 2.6296549861859546e-06
+          },
+          "configuration_prior": {
+            "n": 1,
+            "positive": 1,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.14792899408284022
+          }
+        },
+        "matched_improvement": 0.11927953590201038,
+        "prior_minus_structure": 0.14792636442785403,
+        "logistic_minus_prior": -0.02864682852584366
+      },
+      {
+        "group": "9501df72aee6c7de5ff9952637fefc032b14595f86876fea4afd5747c7b824a0",
+        "all_n": 1,
+        "labelled_n": 1,
+        "null_n": 0,
+        "input_indices": [
+          11
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 1,
+            "positive": 0,
+            "negative": 1,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.5243286369736374
+          },
+          "configuration_structure": {
+            "n": 1,
+            "positive": 0,
+            "negative": 1,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.05882270677714522
+          },
+          "configuration_prior": {
+            "n": 1,
+            "positive": 0,
+            "negative": 1,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.4792899408284023
+          }
+        },
+        "matched_improvement": 0.46550593019649217,
+        "prior_minus_structure": 0.4204672340512571,
+        "logistic_minus_prior": 0.04503869614523509
+      },
+      {
+        "group": "a59a836b9807d87b043a90da11ecf3b9ed97651dbf29f3476d0af981d7a4494e",
+        "all_n": 7,
+        "labelled_n": 7,
+        "null_n": 0,
+        "input_indices": [
+          3,
+          22,
+          31,
+          38,
+          55,
+          64,
+          89
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 7,
+            "positive": 7,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.09214840404917427
+          },
+          "configuration_structure": {
+            "n": 7,
+            "positive": 7,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.07761815393142647
+          },
+          "configuration_prior": {
+            "n": 7,
+            "positive": 7,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.11160588646493366
+          }
+        },
+        "matched_improvement": 0.014530250117747792,
+        "prior_minus_structure": 0.03398773253350719,
+        "logistic_minus_prior": -0.019457482415759397
+      },
+      {
+        "group": "b20a3957abefdc1f01b00a0ca4a511c2b135fcccd7b6c1d417e85d6c17bd13f8",
+        "all_n": 1,
+        "labelled_n": 1,
+        "null_n": 0,
+        "input_indices": [
+          53
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 1,
+            "positive": 0,
+            "negative": 1,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.7568686225716061
+          },
+          "configuration_structure": {
+            "n": 1,
+            "positive": 0,
+            "negative": 1,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.8989806223067813
+          },
+          "configuration_prior": {
+            "n": 1,
+            "positive": 0,
+            "negative": 1,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.765625
+          }
+        },
+        "matched_improvement": -0.1421119997351752,
+        "prior_minus_structure": -0.13335562230678133,
+        "logistic_minus_prior": -0.008756377428393858
+      },
+      {
+        "group": "b3a7053f2f1d2ba6c7186cf6073d22ff96464c055d7807e959e6f3a8452e355d",
+        "all_n": 1,
+        "labelled_n": 1,
+        "null_n": 0,
+        "input_indices": [
+          13
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 1,
+            "positive": 0,
+            "negative": 1,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.5243286369736374
+          },
+          "configuration_structure": {
+            "n": 1,
+            "positive": 0,
+            "negative": 1,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.3410384880923205
+          },
+          "configuration_prior": {
+            "n": 1,
+            "positive": 0,
+            "negative": 1,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.4792899408284023
+          }
+        },
+        "matched_improvement": 0.1832901488813169,
+        "prior_minus_structure": 0.1382514527360818,
+        "logistic_minus_prior": 0.04503869614523509
+      },
+      {
+        "group": "be2e6516aeade4e9f0fbe98a5d4d72ace565805e1de8ead600ab3ef452d385ca",
+        "all_n": 5,
+        "labelled_n": 3,
+        "null_n": 2,
+        "input_indices": [
+          8,
+          41,
+          56,
+          69,
+          92
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 3,
+            "positive": 3,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.08394758223314587
+          },
+          "configuration_structure": {
+            "n": 3,
+            "positive": 3,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.9442887380290639
+          },
+          "configuration_prior": {
+            "n": 3,
+            "positive": 3,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.10546875
+          }
+        },
+        "matched_improvement": -0.860341155795918,
+        "prior_minus_structure": -0.8388199880290639,
+        "logistic_minus_prior": -0.02152116776685413
+      },
+      {
+        "group": "c04890405b7afcbd994ea065fad870af96d2f8b0baef51a61c3255cd82ddde23",
+        "all_n": 3,
+        "labelled_n": 2,
+        "null_n": 1,
+        "input_indices": [
+          34,
+          50,
+          83
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 2,
+            "positive": 0,
+            "negative": 2,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.6026679066427215
+          },
+          "configuration_structure": {
+            "n": 2,
+            "positive": 0,
+            "negative": 2,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 1.9970770008606722e-05
+          },
+          "configuration_prior": {
+            "n": 2,
+            "positive": 0,
+            "negative": 2,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.5603207980830358
+          }
+        },
+        "matched_improvement": 0.6026479358727129,
+        "prior_minus_structure": 0.5603008273130272,
+        "logistic_minus_prior": 0.04234710855968571
+      },
+      {
+        "group": "c5b9912a10f38f85e9341fb7738ab94d0c6bf70acf855e91e51b3a255b5d2178",
+        "all_n": 1,
+        "labelled_n": 1,
+        "null_n": 0,
+        "input_indices": [
+          48
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 1,
+            "positive": 1,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.03327579025720518
+          },
+          "configuration_structure": {
+            "n": 1,
+            "positive": 1,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.4115312014272231
+          },
+          "configuration_prior": {
+            "n": 1,
+            "positive": 1,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.03515625
+          }
+        },
+        "matched_improvement": -0.37825541117001793,
+        "prior_minus_structure": -0.3763749514272231,
+        "logistic_minus_prior": -0.0018804597427948197
+      },
+      {
+        "group": "c5c366181e8e3b8f071561812166b0424a5a32f3f8cb5c6df67026be76c696ca",
+        "all_n": 1,
+        "labelled_n": 0,
+        "null_n": 1,
+        "input_indices": [
+          52
+        ],
+        "scored": false
+      },
+      {
+        "group": "cba4eb5fe5dc6660eb2b921df9b91f8ca2bf981690eb13cf24b8ca0328026544",
+        "all_n": 1,
+        "labelled_n": 1,
+        "null_n": 0,
+        "input_indices": [
+          15
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 1,
+            "positive": 1,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.07913465166770478
+          },
+          "configuration_structure": {
+            "n": 1,
+            "positive": 1,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.7604973630694917
+          },
+          "configuration_prior": {
+            "n": 1,
+            "positive": 1,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.09467455621301776
+          }
+        },
+        "matched_improvement": -0.6813627114017868,
+        "prior_minus_structure": -0.6658228068564739,
+        "logistic_minus_prior": -0.015539904545312982
+      },
+      {
+        "group": "d47975ec2ba3a7dd24ecf47f98f9937eb10943b94448b27957fe2cb60fdc7a7f",
+        "all_n": 1,
+        "labelled_n": 1,
+        "null_n": 0,
+        "input_indices": [
+          35
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 1,
+            "positive": 0,
+            "negative": 1,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.5725725214764716
+          },
+          "configuration_structure": {
+            "n": 1,
+            "positive": 0,
+            "negative": 1,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.8350978261746592
+          },
+          "configuration_prior": {
+            "n": 1,
+            "positive": 0,
+            "negative": 1,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.5289256198347108
+          }
+        },
+        "matched_improvement": -0.2625253046981876,
+        "prior_minus_structure": -0.30617220633994846,
+        "logistic_minus_prior": 0.04364690164176088
+      },
+      {
+        "group": "d4a6422dbc690d370b74aadbd1366a9a65c82ff4d6f3e0c45491982c8a0e2585",
+        "all_n": 1,
+        "labelled_n": 1,
+        "null_n": 0,
+        "input_indices": [
+          77
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 1,
+            "positive": 0,
+            "negative": 1,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.5190462196243746
+          },
+          "configuration_structure": {
+            "n": 1,
+            "positive": 0,
+            "negative": 1,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.9004716057211014
+          },
+          "configuration_prior": {
+            "n": 1,
+            "positive": 0,
+            "negative": 1,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.47265625
+          }
+        },
+        "matched_improvement": -0.3814253860967268,
+        "prior_minus_structure": -0.4278153557211014,
+        "logistic_minus_prior": 0.04638996962437458
+      },
+      {
+        "group": "d56a842a6543d26b8fb5199c557811f712ce5e10276a995e1cc586c82a2a0cf5",
+        "all_n": 6,
+        "labelled_n": 5,
+        "null_n": 1,
+        "input_indices": [
+          7,
+          23,
+          40,
+          60,
+          70,
+          85
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 5,
+            "positive": 5,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.08559554707001263
+          },
+          "configuration_structure": {
+            "n": 5,
+            "positive": 5,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.06547887913484883
+          },
+          "configuration_prior": {
+            "n": 5,
+            "positive": 5,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.1016769600591716
+          }
+        },
+        "matched_improvement": 0.0201166679351638,
+        "prior_minus_structure": 0.036198080924322765,
+        "logistic_minus_prior": -0.016081412989158966
+      },
+      {
+        "group": "e5391454ee1ae2dba04ebe27493b09e17d0681305dea39eab9ef7da22434c818",
+        "all_n": 1,
+        "labelled_n": 0,
+        "null_n": 1,
+        "input_indices": [
+          75
+        ],
+        "scored": false
+      },
+      {
+        "group": "f3d7b78d243a1a500bf8f0ef91a3ecfff3ebc894a9f7c2c0ff45a6151704de96",
+        "all_n": 4,
+        "labelled_n": 2,
+        "null_n": 2,
+        "input_indices": [
+          4,
+          45,
+          76,
+          86
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 2,
+            "positive": 2,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.07635712248873981
+          },
+          "configuration_structure": {
+            "n": 2,
+            "positive": 2,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.011734776055420377
+          },
+          "configuration_prior": {
+            "n": 2,
+            "positive": 2,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.09154262204142011
+          }
+        },
+        "matched_improvement": 0.06462234643331943,
+        "prior_minus_structure": 0.07980784598599973,
+        "logistic_minus_prior": -0.015185499552680295
+      },
+      {
+        "group": "f7b4a98af9dd00a521396033749a2180021a97407016472fc87eb707029e05ec",
+        "all_n": 5,
+        "labelled_n": 4,
+        "null_n": 1,
+        "input_indices": [
+          9,
+          46,
+          61,
+          72,
+          88
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 4,
+            "positive": 3,
+            "negative": 1,
+            "represented_classes": 2,
+            "accuracy": 0.75,
+            "balanced_accuracy": 0.5,
+            "brier": 0.21056266832608594
+          },
+          "configuration_structure": {
+            "n": 4,
+            "positive": 3,
+            "negative": 1,
+            "represented_classes": 2,
+            "accuracy": 0.25,
+            "balanced_accuracy": 0.5,
+            "brier": 0.565551474491172
+          },
+          "configuration_prior": {
+            "n": 4,
+            "positive": 3,
+            "negative": 1,
+            "represented_classes": 2,
+            "accuracy": 0.75,
+            "balanced_accuracy": 0.5,
+            "brier": 0.20823895155325445
+          }
+        },
+        "matched_improvement": -0.3549888061650861,
+        "prior_minus_structure": -0.3573125229379176,
+        "logistic_minus_prior": 0.0023237167728314967
+      },
+      {
+        "group": "f862f0368b2ad1a8459a02663dad9474cb8d907be3263542ca5b39b0154eba39",
+        "all_n": 7,
+        "labelled_n": 7,
+        "null_n": 0,
+        "input_indices": [
+          5,
+          18,
+          30,
+          39,
+          58,
+          67,
+          84
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 7,
+            "positive": 7,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.09214840404917427
+          },
+          "configuration_structure": {
+            "n": 7,
+            "positive": 7,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.021681452879473845
+          },
+          "configuration_prior": {
+            "n": 7,
+            "positive": 7,
+            "negative": 0,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.11160588646493366
+          }
+        },
+        "matched_improvement": 0.07046695116970042,
+        "prior_minus_structure": 0.08992443358545982,
+        "logistic_minus_prior": -0.019457482415759397
+      },
+      {
+        "group": "fad38d958913626816c284fa89733274f8791fd90a60b94b37769eabac8e8690",
+        "all_n": 1,
+        "labelled_n": 1,
+        "null_n": 0,
+        "input_indices": [
+          78
+        ],
+        "scored": true,
+        "metrics": {
+          "configuration_logistic": {
+            "n": 1,
+            "positive": 0,
+            "negative": 1,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.5190462196243746
+          },
+          "configuration_structure": {
+            "n": 1,
+            "positive": 0,
+            "negative": 1,
+            "represented_classes": 1,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "brier": 0.1913674083101283
+          },
+          "configuration_prior": {
+            "n": 1,
+            "positive": 0,
+            "negative": 1,
+            "represented_classes": 1,
+            "accuracy": 0.0,
+            "balanced_accuracy": 0.0,
+            "brier": 0.47265625
+          }
+        },
+        "matched_improvement": 0.32767881131424625,
+        "prior_minus_structure": 0.28128884168987167,
+        "logistic_minus_prior": 0.04638996962437458
+      }
+    ],
+    "prior_minus_structure": -0.10887743836265111,
+    "logistic_minus_prior": 0.0056336702758155045
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "kind": "configuration_prior",
+  "run_id": "r01-20261024-0243-a",
+  "contract_sha256": "8c9c532699b96d13b1c856e60d4dcce20a72cadfe3e668f224ecc8cd7fa1e495",
+  "threshold": 0.5,
+  "global_probability": 0.7317073170731707,
+  "configuration_probabilities": [
+    {
+      "model_id": "Qwen/Qwen3.5-4B",
+      "reasoning_effort": "default",
+      "probability": 0.6428571428571429
+    },
+    {
+      "model_id": "Skywork/Skywork-OR1-Math-7B",
+      "reasoning_effort": "default",
+      "probability": 0.7142857142857143
+    },
+    {
+      "model_id": "allenai/Olmo-3-7B-Think",
+      "reasoning_effort": "default",
+      "probability": 0.7272727272727273
+    },
+    {
+      "model_id": "deepseek-ai/DeepSeek-R1-0528-Qwen3-8B",
+      "reasoning_effort": "default",
+      "probability": 0.6666666666666666
+    },
+    {
+      "model_id": "openai/gpt-oss-120b",
+      "reasoning_effort": "high",
+      "probability": 0.8235294117647058
+    },
+    {
+      "model_id": "openai/gpt-oss-120b",
+      "reasoning_effort": "low",
+      "probability": 0.6666666666666666
+    },
+    {
+      "model_id": "openai/gpt-oss-120b",
+      "reasoning_effort": "medium",
+      "probability": 0.6470588235294118
+    }
+  ]
+}

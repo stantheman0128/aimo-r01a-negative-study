@@ -1,0 +1,9 @@
+# Inputs and generated ledgers are never part of the source-release inventory.
+*.parquet
+*.part
+outputs/
+verification/
+local-data/
+__pycache__/
+*.pyc
+.venv/

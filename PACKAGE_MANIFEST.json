@@ -1,0 +1,167 @@
+{
+  "schema": "aimo_r01a_source_only_manifest_v1",
+  "contract_id": "AIMO-R01A-PUBLIC-SOURCE-CANDIDATE-20261029-V001",
+  "status": "AUTHORIZED_PUBLIC_SOURCE_RELEASE",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 84,
+      "sha256": "04fe3929b85f35998197a72d91408930219a2ddde2744f72412f5a6540ab56de"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 157,
+      "sha256": "ff0464943e46ae2a32bb7c8de79d3e39917665e12789942b1959d3addd9a8516"
+    },
+    {
+      "path": "ATTRIBUTIONS.md",
+      "bytes": 3020,
+      "sha256": "c3b69c58a0a3daf998196f2cd806a7f322f5abd660d45bd302ad3de0e328de58"
+    },
+    {
+      "path": "audit_algorithms.py",
+      "bytes": 8657,
+      "sha256": "b02e6d459f39251ba98127091199454460d6861559c312fdeed27d09dfa75f14"
+    },
+    {
+      "path": "baseline_source/main/predictor_artifact.json",
+      "bytes": 1221,
+      "sha256": "1298ad021344fe6437919c9b82069d06768ab1f635d03b3605643622664d9e74"
+    },
+    {
+      "path": "baseline_source/main/runtime_features.py",
+      "bytes": 3214,
+      "sha256": "f4d1a15af6f924964a2e26278ce070da691019fc4187213e9322977f45a4a870"
+    },
+    {
+      "path": "baseline_source/main/solution.py",
+      "bytes": 2893,
+      "sha256": "3dedd6b6ea1d435a70d9c4fe118cbe9447d5243083bfed49ffe38cd5df5a22a9"
+    },
+    {
+      "path": "baseline_source/small/predictor_artifact.json",
+      "bytes": 1221,
+      "sha256": "1298ad021344fe6437919c9b82069d06768ab1f635d03b3605643622664d9e74"
+    },
+    {
+      "path": "baseline_source/small/runtime_features.py",
+      "bytes": 3214,
+      "sha256": "f4d1a15af6f924964a2e26278ce070da691019fc4187213e9322977f45a4a870"
+    },
+    {
+      "path": "baseline_source/small/small.txt",
+      "bytes": 26,
+      "sha256": "c8bd08b83d62ffc78243b2e4b211b1f1ef42d4c80506b436fd9d27ba58393711"
+    },
+    {
+      "path": "baseline_source/small/solution.py",
+      "bytes": 2893,
+      "sha256": "3dedd6b6ea1d435a70d9c4fe118cbe9447d5243083bfed49ffe38cd5df5a22a9"
+    },
+    {
+      "path": "baselines/aimo-r01-main.zip",
+      "bytes": 3251,
+      "sha256": "4d325735fa5137e2237753ae1aba400fca2e69aa87845e6fd6ecf6c71f82897b"
+    },
+    {
+      "path": "baselines/aimo-r01-small.zip",
+      "bytes": 3371,
+      "sha256": "85669c2f937fec8a779cdbd3814c1b423b8731b171caf22c8559ef4d1e253879"
+    },
+    {
+      "path": "data/family_assignments.json",
+      "bytes": 7350,
+      "sha256": "ea7e0ad7f9ba6148c88858055a81d0d0614721964f82b515d9a0640803149d10"
+    },
+    {
+      "path": "data/INPUT_MANIFEST.json",
+      "bytes": 637,
+      "sha256": "b4d460c0df1996d9948b74ff987230ccdf07f71fbc31a9a103186866f38645f1"
+    },
+    {
+      "path": "docs/PROVENANCE.md",
+      "bytes": 7058,
+      "sha256": "c7a46ccc1a8e79301e92708b63808e54dbb7a8dbaa74e94d66f70b4d5fbe0376"
+    },
+    {
+      "path": "docs/REPRODUCTION.md",
+      "bytes": 6396,
+      "sha256": "4d8215c8b28f2c52b82da89eea8bd879408a146d81e169b7e4fbe1bae5307da5"
+    },
+    {
+      "path": "docs/VERIFIED_REPRODUCTION.md",
+      "bytes": 2161,
+      "sha256": "2dc6064f2e732a2a0555b6a3c9bc423dd416cc378c856f490ad18e91e8f421f7"
+    },
+    {
+      "path": "expected/all_case_predictions.json",
+      "bytes": 23569,
+      "sha256": "b76d67461d06e1e7106a3aa9287002cdd804d1c2e535c8fa7b26c0f2862e5a2d"
+    },
+    {
+      "path": "expected/group_scores.json",
+      "bytes": 72183,
+      "sha256": "d5a013a288c2adb7e0bd20e67ed4f8854814aa8870d603711d6b8b3c629c5b4e"
+    },
+    {
+      "path": "expected/permutation_controls.jsonl",
+      "bytes": 495745,
+      "sha256": "a0a8e855d31ae0aa398f22634883f105d2f2336b599355e0c7df21662527d754"
+    },
+    {
+      "path": "expected/results.json",
+      "bytes": 12927,
+      "sha256": "85121e53c70d2a81d724a4478a4fc68918b11a8ca860b1682fe783d5945b66ea"
+    },
+    {
+      "path": "expected/uncertainty_and_influence.json",
+      "bytes": 604910,
+      "sha256": "e400b07b0a3af979764ba863d00123b0950a9de53dddb79593fd08090a1f1934"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1066,
+      "sha256": "dfb68f2f0efb3b40afa88b324809be5c3233165f08825b23082cdce7662e882c"
+    },
+    {
+      "path": "PROVENANCE.json",
+      "bytes": 7199,
+      "sha256": "1ca3894b1d1649cda380298b8fc9a5ebb0ec8ad358f45bc98f4bd572de9f40cb"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2833,
+      "sha256": "7edd745e784c9e97c08c09e68a466c0ae54c83988cab9fa05c174f4ba51719b7"
+    },
+    {
+      "path": "reference/original_runtime_features.py",
+      "bytes": 3214,
+      "sha256": "f4d1a15af6f924964a2e26278ce070da691019fc4187213e9322977f45a4a870"
+    },
+    {
+      "path": "reproduce.py",
+      "bytes": 19167,
+      "sha256": "483dcd68eb32059d54e27c503e2842cbf02583e0747b2fa9624a1752ce88e9b3"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 219,
+      "sha256": "49424e07232841d813cc04ed934df7bbdbaa1e2f0133e807ef3a32b0dc467b4c"
+    },
+    {
+      "path": "scripts/acquire_official_input.py",
+      "bytes": 7710,
+      "sha256": "f82a12ddf2b11f70ab8c5e117aa3a310ba0c636772896bc3588feb1b557f365a"
+    },
+    {
+      "path": "scripts/export_selected_prior.py",
+      "bytes": 4119,
+      "sha256": "5794223f10ea2592eb848e4ac7bb0bc847e67a8ba920daa2dea50c85105fe388"
+    }
+  ],
+  "excluded_runtime_material": [
+    "acquired input",
+    "generated replay ledgers"
+  ],
+  "parent_package_manifest_sha256": "85951d64c2575435928f6b1e894930a5d2a94fc5079c960a41ec740dfb422b85"
+}

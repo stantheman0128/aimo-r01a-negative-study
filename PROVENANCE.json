@@ -1,0 +1,168 @@
+{
+  "schema": "aimo_r01a_public_source_candidate_v1",
+  "prepared_local_date": "2026-10-29",
+  "packaging_contract_id": "AIMO-R01A-PUBLIC-SOURCE-CANDIDATE-20261029-V001",
+  "packaging_contract_sha256": "dac904b435a145c1411cff0d00b54db2b787cef9b4cf6f6aaf7d5a8242f9c3c5",
+  "python_version": "3.13.3",
+  "dependencies": {
+    "numpy": "2.3.1",
+    "scipy": "1.16.2",
+    "scikit-learn": "1.7.2",
+    "pyarrow": "22.0.0",
+    "joblib": "1.5.2",
+    "threadpoolctl": "3.6.0"
+  },
+  "scientific_parent_pins": {
+    "original_r01a_contract": "480367daad194694a357b4ca33533d2bf589ece382a77d5032b3450cf2acc16a",
+    "builder_manifest": "1c9ea3e297faf2ce47721f4722c6ceb222bfafbf71375be34f29aa7a2bf958c7",
+    "independent_audit_seal_v2": "2c71c1de8070a93be85781867c21e76ad1655923ae48b2f40db1ad4581d5f329",
+    "audit_core": "b02e6d459f39251ba98127091199454460d6861559c312fdeed27d09dfa75f14",
+    "original_features": "f4d1a15af6f924964a2e26278ce070da691019fc4187213e9322977f45a4a870",
+    "data": "e18eb44207e7987781ec2ff214793196038442bdc1466fdf5498f3e87ec58285",
+    "family_map": "bba5e53b4b4144b9b1eb5896053b85cbc337a5b78562d9ece3eaa16eb8bed46f",
+    "builder_results": "4676c24c5a7fd4d9e0de3861e394e36a13179d5db46828aee66c4c7259fc35c2",
+    "baseline_main_zip": "4d325735fa5137e2237753ae1aba400fca2e69aa87845e6fd6ecf6c71f82897b",
+    "baseline_small_zip": "85669c2f937fec8a779cdbd3814c1b423b8731b171caf22c8559ef4d1e253879"
+  },
+  "driver_parent": {
+    "revision": "local-portability-V003",
+    "driver_sha256": "ad80d70973cb4f9325736e6fe0ee279021ee47c5121667961385e073ca233afc",
+    "source_manifest_sha256": "710e64c5e468e0dad59285d3154ac209a4956ff49373ce96132b306528616964",
+    "package_manifest_sha256": "1b218df18a1b29bae1b08210172a3089b42d72aacad02d7dfcc2ef909c84088b",
+    "acquisition_or_numerical_replay_claim": "not performed during candidate construction"
+  },
+  "executed_parent_evidence": {
+    "source_gate_sha256": "be772beb645119e4d3dbf93630209d03b21b238d970d3a39b0d49369624dca8f",
+    "run_seal_sha256": "ea5612a8e0d3ab94e479ed4b62b93b8b2b0a007aec9d953e6ffe3b40d377f981",
+    "actual_terminal_exit": 0,
+    "comparisons_passed": 107,
+    "scope": "Separate data-bearing V003 local replay; not this public source layout"
+  },
+  "selected_prior_training_source": {
+    "helper": "scripts/export_selected_prior.py",
+    "function": "train_configuration_prior(rows)",
+    "rule": "Observed labels only; per-configuration and global Beta(1,1) probabilities; threshold0.5",
+    "new_comparisons": 1,
+    "new_logistic_fits": 0,
+    "delta_contract_sha256": "db55b839185707847cd74f21aca1cc2987f2cbf26724b6cb6068d24f4d9a46df",
+    "historical_archive_bytes_unchanged": true
+  },
+  "historical_targets": {
+    "audit_algorithms.py": {
+      "bytes": 8657,
+      "sha256": "b02e6d459f39251ba98127091199454460d6861559c312fdeed27d09dfa75f14"
+    },
+    "requirements.txt": {
+      "bytes": 219,
+      "sha256": "49424e07232841d813cc04ed934df7bbdbaa1e2f0133e807ef3a32b0dc467b4c"
+    },
+    "reference/original_runtime_features.py": {
+      "bytes": 3214,
+      "sha256": "f4d1a15af6f924964a2e26278ce070da691019fc4187213e9322977f45a4a870"
+    },
+    "expected/group_scores.json": {
+      "bytes": 72183,
+      "sha256": "d5a013a288c2adb7e0bd20e67ed4f8854814aa8870d603711d6b8b3c629c5b4e"
+    },
+    "baselines/aimo-r01-main.zip": {
+      "bytes": 3251,
+      "sha256": "4d325735fa5137e2237753ae1aba400fca2e69aa87845e6fd6ecf6c71f82897b"
+    },
+    "baselines/aimo-r01-small.zip": {
+      "bytes": 3371,
+      "sha256": "85669c2f937fec8a779cdbd3814c1b423b8731b171caf22c8559ef4d1e253879"
+    },
+    "inputs/FAMILY_MAP.json": {
+      "bytes": 52144,
+      "sha256": "bba5e53b4b4144b9b1eb5896053b85cbc337a5b78562d9ece3eaa16eb8bed46f"
+    },
+    "expected/all_case_predictions.json": {
+      "bytes": 24497,
+      "sha256": "1078d72a14eaad5cfa150da0852604cf0fcc9103a21e6ce2f90d7221295453f2"
+    },
+    "expected/permutation_controls.jsonl": {
+      "bytes": 546433,
+      "sha256": "e3f69c7f00ba6bed61b7e52299bf6ce1926cf41f902f7149ff93979092d07463"
+    },
+    "expected/uncertainty_and_influence.json": {
+      "bytes": 605082,
+      "sha256": "65b911da66cf68c60ab36571f3d86b49d2564d6b5a53bf459a77a1d5ae2857b1"
+    },
+    "expected/results.json": {
+      "bytes": 14049,
+      "sha256": "4676c24c5a7fd4d9e0de3861e394e36a13179d5db46828aee66c4c7259fc35c2"
+    }
+  },
+  "label_representation": {
+    "encoding": "UTF-8 json.dumps(array, ensure_ascii=False, separators=(',', ':'), allow_nan=False)",
+    "digest": "SHA256",
+    "original_historical_json_types": [
+      "bool",
+      "null"
+    ],
+    "permutation_historical_json_types": [
+      "int (-1, 0, 1)"
+    ],
+    "digests": 100,
+    "source": "Exact historical expected arrays, never new replay outputs",
+    "interpretation": "Exact canonical-array digest equality assumes SHA256 collision resistance; numeric tolerance does not apply to digests."
+  },
+  "projection": {
+    "family_case_fields": [
+      "case_id",
+      "problem_sha256",
+      "problem_utf8_bytes",
+      "group_id"
+    ],
+    "family_case_count": 36,
+    "removed_expected_metadata": {
+      "all_case_predictions": [
+        "run_id"
+      ],
+      "uncertainty_and_influence": [
+        "run_id",
+        "meaning"
+      ]
+    },
+    "results_retained_fields": [
+      "counts",
+      "primary",
+      "secondary",
+      "original_parity_max_abs_difference",
+      "control_improvements"
+    ]
+  },
+  "source_inventory_excludes": [
+    "raw dataset",
+    "copied label lists",
+    "family prose",
+    "old operational logs",
+    "upstream getting-started harness",
+    "acquired inputs",
+    "generated ledgers",
+    "local adapter"
+  ],
+  "scientific_status": "Independently audited negative retrospective study; all four continuation conditions false",
+  "release_status": "AUTHORIZED_PUBLIC_SOURCE_RELEASE",
+  "baseline_source_member_sha256": {
+    "baseline_source/main/predictor_artifact.json": "1298ad021344fe6437919c9b82069d06768ab1f635d03b3605643622664d9e74",
+    "baseline_source/main/runtime_features.py": "f4d1a15af6f924964a2e26278ce070da691019fc4187213e9322977f45a4a870",
+    "baseline_source/main/solution.py": "3dedd6b6ea1d435a70d9c4fe118cbe9447d5243083bfed49ffe38cd5df5a22a9",
+    "baseline_source/small/predictor_artifact.json": "1298ad021344fe6437919c9b82069d06768ab1f635d03b3605643622664d9e74",
+    "baseline_source/small/runtime_features.py": "f4d1a15af6f924964a2e26278ce070da691019fc4187213e9322977f45a4a870",
+    "baseline_source/small/small.txt": "c8bd08b83d62ffc78243b2e4b211b1f1ef42d4c80506b436fd9d27ba58393711",
+    "baseline_source/small/solution.py": "3dedd6b6ea1d435a70d9c4fe118cbe9447d5243083bfed49ffe38cd5df5a22a9"
+  },
+  "release": {
+    "date": "2026-10-29",
+    "author": "Stan Shih",
+    "license": "MIT",
+    "repository": "https://github.com/stantheman0128/aimo-r01a-negative-study",
+    "parent_archive_sha256": "24d03f2f5ae6f429243134bfabf6b96b2d182b2a8cfb21003511a5d8d4103922",
+    "delta": "license and documentation metadata only",
+    "local_replay_comparisons_passed": 108,
+    "local_replay_fits": 4672,
+    "actual_terminal_exit": 0,
+    "run_seal_sha256": "4444213f94f05ae448f3f93d0b83021aea3f4eafc7c6d61411cf711a8e1299c0"
+  }
+}
